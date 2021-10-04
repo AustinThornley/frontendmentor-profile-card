@@ -47,25 +47,6 @@ body {
 	top: -3rem;
 }
 
-.name, .age {
-	font-size: 18px;
-}
-
-.age, .location {
-	color: hsl(0, 0%, 59%);
-}
-
-.number {
-	font-size: 18px;
-	text-transform: uppercase;
-}
-
-.label {
-	font-size: 12px;
-	color: hsl(0, 0%, 59%);
-	letter-spacing: 1.2px;
-}
-
 .name-age-container {
 	margin-top: 4rem;
 	display: flex;
@@ -82,7 +63,7 @@ body {
 
 .line {
 	content: '';
-	border-top: .25px solid hsl(0, 0%, 59%);
+	border-top: 1px solid black;
 	margin-top: 1.25rem;
 }
 
